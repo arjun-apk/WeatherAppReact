@@ -1,0 +1,25 @@
+.ag-theme-material .ag-root-wrapper {
+  background-color: transparent !important;
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+}
+
+.ag-theme-material {
+  --ag-background-color: transparent !important;
+}
+
+.ag-theme-material {
+  --ag-header-background-color: transparent !important;
+}
+
+.ag-filter-body-wrapper {
+  background-color: white;
+}
+
+.ag-header-cell-text {
+  font-size: 16px;
+}
+
+.ag-paging-panel {
+  font-size: 16px;
+}
