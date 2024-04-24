@@ -57,7 +57,7 @@ const WeatherLocationPage = () => {
 
     hubConnection.on("WeatherLocation", (data) => {
       console.log("🚀 ~ hubConnection.on ~ data:", data);
-      dispatch(WeatherLocationActions.appendWeatherLocation(data));
+      dispatch(WeatherLocationActions.updateWWeatherLocation(data));
     });
 
     getWeatherLocationsList();

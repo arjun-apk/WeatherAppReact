@@ -20,7 +20,7 @@ const WeatherLocationSlice = createSlice({
   name: "Login",
   initialState,
   reducers: {
-    appendWeatherLocation: (state, action) => {
+    updateWWeatherLocation: (state, action) => {
       state.list = action.payload;
     },
   },

@@ -12,7 +12,7 @@ class Connector {
       .withUrl(URL)
       .withAutomaticReconnect()
       .build();
-    this.connection.start().catch((err) => console.error(err)); // Log error instead of document.write
+    this.connection.start().catch((err) => console.error(err));
   }
 
   public getHubConnection = () => {
